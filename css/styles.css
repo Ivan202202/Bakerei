@@ -63,6 +63,9 @@ body {
     line-height: 1.5;
 }
 
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+}
 address {
     font-style: normal;
 }
@@ -105,10 +108,14 @@ ul {
     color: var(--color-brand-light);
     font-weight: 600;
 }
-
+/*  ------  hero-section   -------   */
+.hero-section {
+    padding: 272px 0;
+}
 /*  ------  hero-title   -------   */
 
 .hero-title {
+    margin-bottom: 0;
     color: var(--color-primary-light); 
     text-align: center;
     text-transform: uppercase;
