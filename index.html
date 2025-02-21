@@ -18,30 +18,40 @@
 
 <body>
     <header>
-        <nav>
-            <a href="/">
-                <img src="./Images/logo.svg" alt="logotype Moderne Bäckerei">
-            </a>
-            <ul>
-                <li><a class="link" href="#traditions-section">Unsere Traditionen</a></li>
-                <li><a class="link" href="#chefs-section">Köche</a></li>
-                <li><a class="link" href="#formats-section">Formate</a></li>
-                <li><a class="link" href="#contacts-section">Kontakte</a></li>
-            </ul>
-        </nav>
-        <button class='button' type="button" disabled>Rückruf anfordern</button>
-    </header>
+        <div class="container">
+            <nav>
+                <a href="/">
+                    <img src="./Images/logo.svg" alt="logotype Moderne Bäckerei">
+                </a>
+                <ul>
+                    <li><a class="link" href="#traditions-section">Unsere Traditionen</a></li>
+                    <li><a class="link" href="#chefs-section">Köche</a></li>
+                    <li><a class="link" href="#formats-section">Formate</a></li>
+                    <li><a class="link" href="#contacts-section">Kontakte</a></li>
+                </ul>
+            </nav>
+            <button class='button' type="button" disabled>Rückruf anfordern</button>
+        </div>
+</header>
     <main>
         <section class="hero-section">
-            <h1 class="hero-title"><span class="accent">Moderne</span> Bäckerei</h1>
+            <div class="container">
+                <h1 class="hero-title"><span class="accent">Moderne</span> Bäckerei</h1>
+            </div>
         </section>
-        <section id="traditions-section">
+        <section>
+            <div class="container">
+                <h2 class="hidden">unsere advantages</h2>
             <ul class="advantages-list">
                 <li class="advantages-item">Hohe Nachfrage am Markt</li>
                 <li class="advantages-item">Kostengünstige Formate</li>
                 <li class="advantages-item">Erfahrenes Managementteam</li>
             </ul>
-            <h2 class="section-title">Traditionen - sind ein neues Format</h2>
+            </div>
+        </section>
+        <section class="traditions-section section" id="traditions-section">
+            <div class="container">
+                <h2 class="traditions-title section-title">Traditionen - sind ein neues Format</h2>
             <p class="traditions-text">
                 <span class="brand uppercase">shop bakery</span> - ist eine Bäckerei, die das Beste genommen und den
                 Geschmack traditionellen
@@ -53,35 +63,37 @@
                 und hochwertigen Service!
             </p>
             <img src="./Images/baker-man.jpg" alt="ein Man in der Bakerei">
+            </div>
         </section>
-        <section id="chefs-section">
-            <h2 class="section-title">Unsere besten <span class="accent">Köche</span></h2>
-            <ul>
-                <li>
-                    <article>
-                        <h3 class="chef-title">Erika</h3>
-                        <p>Hallo, ich bin Erika!</p>
-                        <p>Seit 10 Jahren beleuchte ich
-                            interessante und köstliche Ideen werden zum Leben erweckt.</p>
-                        <p>Ich werde für dich backen die leckersten Produkte!</p>
-                    </article>
-                </li>
-                <li>
-                    <article>
-                        <h3 class="chef-title">Paul</h3>
-                        <p>Hallo, ich bin Vlad!</p>
-                        <p>Ich koche schon 18 Jahren. SHOP BEKERY - ist unsere Liebe, die wir jedes Mal durch unser
-                            Gebäck mit
-                            Ihnen teilen!</p>
-                        <p>Ich fertige für Sie eine individuelle Füllung für jeden Geschmack!</p>
-                    </article>
-                </li>
-            </ul>
-
-
+        <section class="section" id="chefs-section">
+            <div class="container">
+                <h2 class="chefs-title section-title">Unsere besten <span class="accent">Köche</span></h2>
+                <ul>
+                    <li>
+                        <article>
+                            <h3 class="chef-title">Erika</h3>
+                            <p>Hallo, ich bin Erika!</p>
+                            <p>Seit 10 Jahren beleuchte ich
+                                interessante und köstliche Ideen werden zum Leben erweckt.</p>
+                            <p>Ich werde für dich backen die leckersten Produkte!</p>
+                        </article>
+                    </li>
+                    <li>
+                        <article>
+                            <h3 class="chef-title">Paul</h3>
+                            <p>Hallo, ich bin Vlad!</p>
+                            <p>Ich koche schon 18 Jahren. SHOP BEKERY - ist unsere Liebe, die wir jedes Mal durch unser
+                                Gebäck mit
+                                Ihnen teilen!</p>
+                            <p>Ich fertige für Sie eine individuelle Füllung für jeden Geschmack!</p>
+                        </article>
+                    </li>
+                </ul>    
+            </div>
         </section>
-        <section id="formats-section">
-            <h2 class="section-title">Formate</h2>
+        <section class="section" id="formats-section">
+            <div class="container">
+                <h2 class="formats-title section-title">Formate</h2>
             <ul>
                 <li>
                     <article>
@@ -118,47 +130,49 @@
                     </article>
                 </li>
             </ul>
-
-
-
+            </div>
         </section>
-        <section id="contacts-section">
-            <h2 class="section-title">Treten Sie dem Netzwerk der Bäckereien bei</h2>
+        <section class="section" id="contacts-section">
+            <div class="container">
+                <h2 class="contacts-title section-title">Treten Sie dem Netzwerk der Bäckereien bei</h2>
             <p>Füllen Sie das Formular aus, damit wir Sie kontaktieren können!</p>
             <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d299.633860265806!2d8.81128693372262!3d53.072999998557286!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47b1281ad3f5ec4f%3A0x4cd41259214ef7a3!2sMarterburg%2011%2C%2028195%20Bremen!5e0!3m2!1sen!2sde!4v1738617089290!5m2!1sen!2sde"
                 width="603" height="595" style="border:0;" allowfullscreen="" loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
         </section>
     </main>
     <footer>
-        <nav>
-            <a href="/">
-                <img src="./Images/logo.svg" alt="logotype Moderne Bäckerei">
-            </a>
-            <ul>
-                <li><a class="link" href="#traditions-section">Unsere Traditionen</a></li>
-                <li><a class="link" href="#chefs-section">Köche</a></li>
-                <li><a class="link" href="#formats-section">Formate</a></li>
-                <li><a class="link" href="#contacts-section">Kontakte</a></li>
-            </ul>
-        </nav>
-        <address>
-            <ul>
-                <li><a class="address-link" href="tel:+4917345637867">+49 173 45637867</a></li>
-                <li><a class="address-link" href="mailto:shopbakery@gmail.com">shopbakery@gmail.com</a></li>
-                <li><a class="address-link" href="https://maps.app.goo.gl/QhMGJhc9XjndJZNj7" target="_blank">
-                        28195,Bremen,Marterburg 11</a></li>
-                <li><a href="#">
-                        <!--facebook icon-->
-                    </a></li>
-                <li><a href="#">
-                        <!--instagram icon-->
-                    </a></li>
-            </ul>
-            <a class="address-link" href="#" target="_blank">Datenschutzrichtlinie</a>
-            <p class="address-copyright">&copy; 2022 Datenschutz</p>
-        </address>
+        <div class="container">
+            <nav>
+                <a href="/">
+                    <img src="./Images/logo.svg" alt="logotype Moderne Bäckerei">
+                </a>
+                <ul>
+                    <li><a class="link" href="#traditions-section">Unsere Traditionen</a></li>
+                    <li><a class="link" href="#chefs-section">Köche</a></li>
+                    <li><a class="link" href="#formats-section">Formate</a></li>
+                    <li><a class="link" href="#contacts-section">Kontakte</a></li>
+                </ul>
+            </nav>
+            <address>
+                <ul>
+                    <li><a class="address-link" href="tel:+4917345637867">+49 173 45637867</a></li>
+                    <li><a class="address-link" href="mailto:shopbakery@gmail.com">shopbakery@gmail.com</a></li>
+                    <li><a class="address-link" href="https://maps.app.goo.gl/QhMGJhc9XjndJZNj7" target="_blank">
+                            28195,Bremen,Marterburg 11</a></li>
+                    <li><a href="#">
+                            <!--facebook icon-->
+                        </a></li>
+                    <li><a href="#">
+                            <!--instagram icon-->
+                        </a></li>
+                </ul>
+                <a class="address-link" href="#" target="_blank">Datenschutzrichtlinie</a>
+                <p class="address-copyright">&copy; 2022 Datenschutz</p>
+            </address>
+        </div>
     </footer>
 
 </body>
